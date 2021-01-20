@@ -1,0 +1,13 @@
+.navbar {
+  padding: 1.5rem 0;
+}
+
+.navbar-brand {
+  background-color: #0c203c;
+  color: #dee5f3;
+  display: flex;
+}
+
+.navbar-brand:hover {
+  color: #dee5f3;
+}

@@ -1,0 +1,25 @@
+.permission {
+  width: 300px;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+.selector {
+  padding-top: 2rem;
+  display: flex;
+}
+
+h2,
+label {
+  font-size: 0.9rem;
+  /* transform: rotate(60deg); */
+}
+
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+}

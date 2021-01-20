@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+html body {
+  margin: 0;
+  font-family: 'Fira Code', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0c203c;
+  color: #dee5f3;
+}
+
+code {}
