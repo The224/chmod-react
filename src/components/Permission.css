@@ -7,19 +7,28 @@ h1 {
 }
 
 .selector {
-  padding-top: 2rem;
+  padding-top: 0.5rem;
   display: flex;
+  flex-direction: column;
 }
 
-h2,
+.click-zone {
+  user-select: none;
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+}
+
 label {
-  font-size: 0.9rem;
-  /* transform: rotate(60deg); */
+  padding-left: 0.5rem;
+  cursor: pointer;
 }
 
 [type="checkbox"]:not(:checked),
 [type="checkbox"]:checked {
-  height: 30px;
-  width: 30px;
+  height: 1.4rem;
+  width: 1.4rem;
   margin-top: 20px;
+  z-index: 100;
+  cursor: pointer;
 }

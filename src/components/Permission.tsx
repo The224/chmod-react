@@ -42,17 +42,17 @@ class Permission extends React.Component<Props, State> {
       <div className="permission">
         <h1>{this.props.name}</h1>
         <div className="selector">
-          <div>
-            <h2>Read</h2>
-            <input type="checkbox" checked={this.state.read} onChange={(e) => this.handleClick("read")}></input>
+          <div className="click-zone" onClick={(e) => this.handleClick("read")}>
+            <input type="checkbox" checked={this.state.read}></input>
+            <label htmlFor="read">Read</label>
           </div>
-          <div>
-            <h2>Write</h2>
-            <input type="checkbox" checked={this.state.write} onChange={(e) => this.handleClick("write")}></input>
+          <div className="click-zone" onClick={(e) => this.handleClick("write")}>
+            <input type="checkbox" checked={this.state.write}></input>
+            <label htmlFor="write">Write</label>
           </div>
-          <div>
-            <h2>Execute</h2>
-            <input type="checkbox" checked={this.state.execute} onChange={(e) => this.handleClick("execute")}></input>
+          <div className="click-zone" onClick={(e) => this.handleClick("execute")}>
+            <input type="checkbox" checked={this.state.execute}></input>
+            <label htmlFor="execute">Execute</label>
           </div>
         </div>
       </div>

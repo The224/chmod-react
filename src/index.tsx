@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
-import Navbar from './components/Navbar';
+import Navbar from './components/layout/Navbar';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap';
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/monokai.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
-    <App />
+    <div className="layout">
+      <Navbar />
+      <App />
+      {/* <Footer /> */}
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -11,3 +11,8 @@
 .navbar-brand:hover {
   color: #dee5f3;
 }
+
+.nav-link {
+  margin-left: 1rem;
+  color: #dee5f3;
+}

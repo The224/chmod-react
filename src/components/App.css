@@ -6,3 +6,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+
+.callout {
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px solid #5bc0de;
+  border-left-width: 9px;
+  border-radius: 3px;
+}

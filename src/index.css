@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
 html body {
   margin: 0;
   font-family: 'Fira Code', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
@@ -9,4 +19,12 @@ html body {
   color: #dee5f3;
 }
 
-code {}
+.layout {
+  display: flex;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+#root {
+  min-height: 100% !important;
+}
